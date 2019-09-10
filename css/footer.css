@@ -1,0 +1,54 @@
+/*********主页面***********/
+.footer{
+    /* border:1px solid red; */
+    width:1200px;
+    height: 260px;
+    margin:0 auto;
+    text-align:center;
+    background-color:#fff; 
+} 
+/*******第一部分:图片********/
+.footer_img>div{
+     /* border:1px solid red; */
+    height:5px;
+    background-color:red;
+}
+/******第二部分:公告********/
+.footer_nav>p{
+     /* border:1px solid red; */
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    padding-top:15px;
+}
+.footer_nav>p>a{
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 12px;
+    margin-top: 12px;
+    border-right: 1px solid #3e3e3e;
+}
+.footer_nav>p>a.last{
+    border-right: 0;
+}
+/******第三部分:地址*******/
+.footer_name>p{
+     /* border:1px solid red; */
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.footer_name>p>img{
+    position: relative;
+    bottom:3px;
+}
+/******第四部分:版权*******/
+.footer_copy>img{
+     /* border:1px solid red; */
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    padding-top:15px;
+}

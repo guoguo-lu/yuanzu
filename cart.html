@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>元祖-购物车</title>
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/cart.css">
+</head>
+<body>
+  <div class="main">
+    <!-- 头部 -->
+    <header id="header"></header>
+    <!-- 位置 -->
+    <div class="location">
+      <a href="index.html">主页</a>
+      <span>&gt;&gt;</span>
+      <a href="cart.html">购物车</a>
+    </div>
+    <!-- 导航 -->
+    <div class="cart">
+      <ul class="cart-set">
+        <li class="active">1.购物车</li>
+        <li>2.填写订单信息</li>
+        <li>3.提交成功</li>
+        <li>4.在线支付</li>
+      </ul>
+    </div>
+    <!-- 空的购物车 -->
+    <div class="cart-kong">
+      <div class="cart-kong-img">
+        <img src="./img/icons/cart.png" alt="">
+      </div>
+      <p>
+        <strong>您的购物车还是空的</strong>
+        <strong>返回首页添加产品吧！</strong>
+        <a href="./index.html">返回首页</a>
+      </p>
+    </div>
+    <!-- 有商品的购物车 -->
+    <div class="cart-product">
+      <!-- 标题 -->
+      <div class="cart-product-title">
+        <ul>
+          <li>商品</li>
+          <li>单价</li>
+          <li>数量</li>
+          <li>操作</li>
+        </ul>
+      </div>
+      <!-- 内容 -->
+      <div class="cart-product-container">
+        <div class="cartProduct">
+          <a href=""><img src="./img/product/lg/1-2-1_1.jpg" alt=""></a>
+          <strong><a href="">8号粉桂初开鲜奶蛋糕</a></strong>
+          <p>蛋糕夹层：<span>香芋+香芋（网红款）</span></p>
+        </div>
+        <div class="cartPrice">
+          <strong>￥218.00</strong>
+        </div>
+        <div class="cartInput">
+          <span>-</span>
+          <input type="text" value="1">
+          <span>+</span>
+        </div>
+        <div class="cartYichu">
+          <img src="./img/icons/del.gif" alt="">
+          <a href="">移除</a>
+        </div>
+      </div>
+      <!-- 合计 -->
+      <div class="heji">
+        <div class="heji-detail">
+          <h3>订单合计</h3>
+          <dl>
+            <dt>商品数量总计：</dt>
+            <dd>1</dd>
+            <dt>商品价额总计(不含运费)：</dt>
+            <dd><strong>¥218.00</strong></dd>
+          </dl>
+          <div class="zongji">总计： ¥218.00</div>
+          <div class="heji-btn">
+            <a href="product.html">继续购物</a>
+            <a href="login.html">结算</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 尾部 -->
+    <footer id="footer"></footer>
+  </div>
+  <script src="./js/jquery-3.2.1.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/footer.js"></script>
+</body>
+</html>

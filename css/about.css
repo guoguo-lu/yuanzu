@@ -1,0 +1,111 @@
+/*****顶部位置*****/
+.location{
+  width:1200px;
+  height:45px;
+  line-height:45px;
+  overflow:hidden;
+  margin:0 auto;
+  position:relative;
+}
+/*****公司简介*****/
+.intro{
+  width:1200px;
+  height:550px;
+}
+.intro-img>img{
+  width:100%;
+}
+.intro-content{
+  width:100%;
+  height:140px;
+  margin:0 auto;
+}
+.intro-content>p{
+  width:1200px;
+  height:130px;
+  font-size:18px;
+  color: #6b6b6b;
+  line-height:35px;
+  margin:20px auto 0;
+}
+/*****公司历史*****/
+.history{
+  width: 450px;
+  height: 480px;
+  margin: 35px auto 0;
+  overflow: hidden;
+  border-bottom: 1px dashed #ccc;
+}
+.history-img{
+  width:409px;
+  height:500px;
+  float:left;
+}
+.history-img>ul{
+  width:409px;
+  height:450px;
+  padding-left:25px;
+  padding-top:25px;
+  background:url(../img/other/lianxi3.gif) left center no-repeat;
+}
+.history-img>ul>li{
+  height:35px;
+  line-height:25px;
+  color: #6b6b6b;
+}
+/*****关于我们*****/
+.about{
+  width:1000px;
+  height:700px;
+  margin:60px auto 0;
+  text-align:center;
+}
+.about>h1{
+  width:610px;
+  line-height:60px;
+  font-size:42px;
+  font-family:宋体;
+  font-weight:bold;
+  color: rgb(170, 0, 1);
+  border-bottom:1px solid rgb(204, 204, 204);
+  margin:0px auto;
+}
+.about>h4{
+  color: #6b6b6b;
+  line-height:35px;
+  font-size:14px;
+  font-weight:normal;
+}
+/*****联系我们*****/
+.Tous{
+  width: 1000px;
+  height: 750px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.Tous>img{
+  display:block;
+  margin:0 auto;
+}
+.Tous-left{
+  width:465px;
+  height:550px;
+  float:left;
+}
+.Tous ul{
+  margin-top:60px;
+  height:590px
+}
+.Tous ul li{
+  color: #6b6b6b;
+  font-size:18px;
+  height:45px;
+  line-height:45px;
+}
+.Tous-right{
+  width:425px;
+  height:550px;
+  float:right;
+  position:relative;
+  left:100px;
+}

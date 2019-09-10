@@ -1,0 +1,174 @@
+/**********顶部位置***********/
+.location{
+    width:1200px;
+    height:45px;
+    line-height:45px;
+    overflow:hidden;
+    margin:0 auto;
+    position:relative;
+}
+/**********中间登录*********/
+.center-login{
+    height:530px;
+    background-image:linear-gradient(to right,#f9edef 0px,#f4e4e5 50px,#f5dfe2 100px) ;
+    opacity: .75;
+}
+/*****登录*****/
+.login{
+    position: absolute;
+    width:455px;
+    height:470px;
+    top:330px;
+    left:260px;
+    border-radius: 8px;
+    border:1px solid #8e8e8e;
+}
+.login>h2{
+    position: absolute;
+    font-size:20px;
+    padding: 30px 195px;
+    font-weight: bold;
+}
+.login>.zhdl{
+    position: absolute;
+    margin: 80px 35px;
+}
+.login>.zhdl>div{
+    padding:7px 30px;
+}
+.login>.zhdl>div>input{
+    padding:10px 65px;
+}
+div.yhm>i.icon{
+    position: absolute;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: url(../img/icons/yhm.png) center no-repeat;
+    background-position: 0px -119px;
+    left: 29px;
+    top: 6px;
+}
+div.mm>i.icon{
+    position: absolute;
+    display: inline-block;
+    width: 38px;
+    height: 41px;
+    background: url(../img/icons/yhm.png) center no-repeat;
+    background-position: 0px -178px;
+    left: 29px;
+    top: 55px;
+}
+div.yzm>input{
+    width:50px;
+}
+div.yzm>i.icon{
+    position: absolute;
+    display: inline-block;
+    width: 38px;
+    height: 44px;
+    background: url(../img/icons/yhm.png) center no-repeat;
+    background-position: 0px -176px;
+    left: 29px;
+    top: 104px;
+}
+div.yzm>a{
+    color:#878787;
+}
+div.yzm>img{
+    width:55px;
+    height:27px;
+}
+div.box>input {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-left:30px;
+}
+#jzmm{
+    font-size: 12px;
+    float: left;
+    line-height: 12px;
+    padding-left: 3px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+#zhmm{
+    font-size: 12px;
+    line-height: 12px;
+    float: right;
+    padding-right: 60px;
+}
+.button{
+    display: inline;
+    position: relative;
+    left:45px;
+    top:50px;
+    font-size: 18px;
+    background: #cfc9cd;
+    border-radius: 7px;
+}
+#dl{
+    padding: 0px 60px;
+    border: 0;
+    background-color: #cfc9cd;
+    font-size: 18px;
+}
+div.dsf{
+    margin-top: 80px;
+    font: 12px Arial, "SimSun";
+    color: #878787;
+    position: relative;
+}
+div.dlfs{
+    margin-top:12px;
+}
+div.dlfs>a{
+    float:left;
+    margin:0 40px;
+}
+/* 微信 */
+div.dlfs>i.icon1{
+    position: absolute;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:url(../img/icons/dlfs.png) center no-repeat;
+    background-position:-33px -5px;
+    left:42px;
+    bottom:-5px;
+}
+/* QQ */
+div.dlfs>i.icon2{
+    position: absolute;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:url(../img/icons/dlfs.png) center no-repeat;
+    background-position:-62px -5px;
+    left:148px;
+    bottom:-5px;
+}
+/* 微博 */
+div.dlfs>i.icon3{
+    position: absolute;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:url(../img/icons/dlfs.png) center no-repeat;
+    background-position:-5px -5px;
+    left:246px;
+    bottom:-5px;
+}
+.weixin{
+    width:200px;
+    height:200px;
+    float:right;
+    position:relative;
+    right:200px;
+    top:125px;
+}
+.weixin>img{
+    width:100%;
+    height:100%;
+}

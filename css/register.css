@@ -1,0 +1,118 @@
+/**********顶部位置***********/
+.location{
+	width:1200px;
+	height:45px;
+	line-height:45px;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+}
+/**********中间注册***********/
+.center-register{
+	height:575px;
+	background-image:linear-gradient(to right,#f9edef 0px,#f4e4e5 50px,#f5dfe2 100px) ;
+	opacity: .75;
+}
+/***注册***/
+	.register{
+		position: absolute;
+		width:590px;
+		height:530px;
+		left:240px;
+		top:325px;
+		border-radius: 8px;
+		border:1px solid #8e8e8e;
+	}
+	.register>h2{
+		/* border:1px solid red; */
+		position: relative;
+		display:inline-block;
+		font-size:20px;
+		font-weight: bold;
+		text-align: center;
+		margin:0 auto;
+		margin-top:20px;
+		width:590px;
+		height:25px;
+	}
+	.yhzc{
+		position: relative;
+		padding:5px;
+		height:500px;
+		top:5px;
+	}
+	.yhzc>p{
+		position: relative;
+		display:inline-block;
+		padding:13px 0;
+		left:25px;
+		font-size:15px;
+	}
+	.yhzc>p>span{
+		font-size:12px;
+	}
+	.yhzc>p>input{
+		padding:10px 30px;
+		width:258px;
+	}
+	.yhzc>p>img{
+		padding:0 5px;
+		width:62px;
+		height:35px;
+	}
+	.yzm>span{
+		cursor: pointer;
+	}
+	#YZM{
+		width:80px;
+	}
+	.xieyi{
+		position: relative;
+    left: 50px;
+    font-size: 13px;
+	}
+	.xieyi>a{
+    text-decoration: underline;
+    line-height: 28px;
+		color: #959ca8;
+		position: relative;
+		left:300px;
+	}
+	.btn{
+		position: relative;
+		left:35px;
+		top:5px;
+	}
+	.btn>button{
+		display: inline-block;
+		width:490px;
+    height: 38px;
+    border-radius: 1px;
+    background: #8975B4;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: center;
+    outline: none;
+    border: 1px #fff solid;
+	} 
+	.btn>p{
+		margin: 0 0 0 20px;
+    font-size: 13px;
+		color: #666;
+		position: relative;
+		left:330px;
+	}
+	.weixin{
+    width:200px;
+    height:200px;
+    float:right;
+    position:relative;
+    right:125px;
+    top:150px;
+}
+.weixin>img{
+    width:100%;
+    height:100%;
+}

@@ -1,0 +1,67 @@
+/* 基础样式 */
+body,p,h1,h2,h3,h4,h5,h6,hr,p,ul,li,ol,dl,dt,dd,pre,th,td{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+}
+body{
+		border: 0;
+		font-weight: inherit;
+    font-style: inherit;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+		vertical-align: baseline;
+		background: #fff;
+    background-color: #f9f9f9;
+}
+div.main{
+	margin:0 auto;
+	width:1200px;
+}
+a{
+	color: #4f4f4f; 
+	text-decoration:none;
+}
+a:hover{
+	color:#f65;
+	cursor: pointer;
+}
+img{
+	border:none;
+	vertical-align:middle;
+}
+img:hover{
+	cursor: pointer;
+}
+.f-left{
+	float:left;
+}
+.f-right{
+	float:right;
+}
+input{
+	padding:0;
+	border:0;
+	margin:0;
+	outline: none;
+	font-family: inherit;
+	vertical-align: middle;
+}
+button{
+	padding:0;
+	margin:0;
+	outline:none;
+	border:0;
+}
+/* 消除浮动影响 */
+.clear:after{
+		 content:"";
+		 display:block;
+		 clear:both;
+}
+.flex{
+	 display:flex;
+	 justify-content:space-between;
+	 flex-wrap:wrap;
+ }

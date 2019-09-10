@@ -1,0 +1,406 @@
+/****顶部位置****/
+.location{
+  width:1200px;
+  height:45px;
+  line-height:45px;
+  overflow:hidden;
+  margin:0 auto;
+  position:relative;
+}
+/****产品详情****/
+.detail{
+  width:990px;
+  height:580px;
+  margin-bottom: 16px;
+  padding-top: 17px;
+  background-color: #fff;
+  display: inline-flex;
+}
+/* 左边图片 */
+.proview{
+  float:left;
+  width:480px;
+  margin-left: 17px;
+  padding-bottom: 24px;
+}
+/* 上图 */
+.M-img{
+  width: 450px;
+  height: 450px;
+  position: relative;
+  left:8px;
+}
+.M-img>div>img{
+  width: 100%;
+  height: 100%;
+}
+/* 下图 */
+.S-img{
+  width: 477px;
+  height: 69px;
+  overflow: hidden;
+  padding-top: 20px;
+}
+/* 左箭头 */
+.arrow-left{
+  margin: 0px 5px;
+  float: left;
+  width: 15px;
+  height: 67px;
+}
+.arrow-left>img{
+  cursor: pointer;
+}
+/* 中间图片列表 */
+.img{
+  float: left;
+  width: 420px;
+  position: relative;
+}
+.img>ul{
+  width: 336px;
+  overflow: hidden;
+  float: left;
+}
+.img>ul>li{
+  float: left;
+  width: 84px;
+  margin-right: 0px;
+}
+.img>ul>li>img{
+  width: 62px;
+  height: 62px;
+  padding: 1px;
+  border: 1px solid #999999;
+}
+/* 右箭头 */
+.arrow-right{
+  float: left;
+  width: 15px;
+  height: 67px;
+  margin: 0px 5px;
+}
+.arrow-right>img{
+  cursor: pointer;
+}
+/* 右边信息 */
+.info{
+  float:right;
+  width:455px;
+  height: 554px;
+  padding-left: 40px;
+}
+/* 标题 */
+.info-title{
+  width:455px;
+  height:45px;
+  margin:10px 0;
+}
+.info-title>h1{
+  height: 25px;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.info-title>div{
+  margin:5px  0;
+  color: #8e8e8e;
+}
+/* 价格 */
+.price{
+  width: 455px;
+  color: #8e8e8e;
+  padding:12px 0;
+}
+.price>span{
+  height:25px;
+  line-height: 25px;
+  color: #8e8e8e;
+}
+.price>strong{
+  line-height: 25px;
+  padding:0 10px;
+  font-size: 24px;
+  color: #e70050;
+}
+/* 规格选择 */
+.select{
+  width: 455px;
+  position: relative;
+  color: #8e8e8e;
+  padding:15px 0;
+}
+.select>ul{
+  display: inline-block;
+  position: relative;
+  top:5px;
+}
+.select>ul>li{
+  float:left;
+  padding:3px 12px;
+}
+.select>ul>li>a{
+  text-align: center;
+  font-size: 12px;
+  border:1px solid #999999;
+  padding:4px 15px;
+}
+.select .active{
+  border:2px solid #e70050;
+}
+/* 蛋糕夹层 */
+.jiaceng{
+  width: 455px;
+  position: relative;
+  color: #8e8e8e;
+  padding-top:15px;
+}
+.jiaceng>div>ul{
+  display: inline-block;
+  position: relative;
+  top:-16px;
+  left:65px;
+}
+.jiaceng>div>ul>li{
+  float:left;
+  padding:5px 10px;
+}
+.jiaceng>div>ul>li>a{
+  text-align: center;
+  font-size: 12px;
+  border:1px solid #999999;
+  padding:2px 10px;
+}
+.jiaceng .active{
+  border:2px solid #e70050;
+}
+/* 加入购物车 */
+.add-cart{
+  width:430px;
+  height:40px;
+  padding:15px 0;
+}
+.add-cart>span{
+  height:25px;
+  line-height: 25px;
+  color: #8e8e8e;
+}
+.account{
+  display:inline-block;
+  padding:8px 10px;
+}
+.account>button{
+  width:30px;
+  height:30px;
+  cursor: pointer;
+}
+.account>input{
+  width:15px;
+  height:20px;
+  text-align: center;
+  padding:5px;
+}
+.button{
+  float:right;
+}
+.btn1{
+  margin: 0 14px 0 0;
+  width: 100px;
+  float: left;
+  height: 35px;
+  font-size: 18px;
+  color: #e70050;
+  background-color: #feedf3;
+  border: 1px solid #d5014b;
+}
+.btn2{
+  float: left;
+  width: 130px;
+  height: 35px;
+  line-height: 38px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 20px;
+  background: #e4004f url(../img/icons/cart.gif) no-repeat 8px 10px;
+  border: 0;
+}
+/* 承诺 */
+.promise{
+  padding: 3px 8px;
+  width:415px;
+  line-height: 29px;
+  color: #5a5a58;
+  margin-bottom: 15px;
+  background-color: #f7f3e8;
+}
+/* 编号 */
+.number>span{
+  float: left;
+  margin-right: 30px;
+}
+.number>a{
+  margin-right: 21px;
+  cursor: pointer;
+}
+/********侧边栏********/
+.side{
+  float:right;
+  width:195px;
+  background-color:#ffffff; 
+}
+.side-title{
+  padding:0 13px;
+  height:30px;
+  line-height:30px;
+  position:relative;
+  color:#fff;
+  margin-bottom:10px;
+  background-color:#e50150;
+}
+.like-list{
+  width:170px;
+  margin:0 auto;
+  list-style-type: none;
+}
+.like-list>li{
+  width:170px;
+  margin-bottom:10px;
+}
+.like-list a{
+  color:#5c5c5c;
+}
+.like-list img{
+  width:170px;
+  height:170px;
+  display:block;
+  cursor:pointer;
+}
+.like-list em{
+  height:27px;
+  line-height:27px;
+  text-align:right;
+  font-weight:bold;
+  color:#e70050;
+  display:block;
+  font-style: normal;
+}
+.like-list strong{
+  height:36px;
+  line-height:18px;
+  font-weight:normal;
+  display:block;
+}
+/****详情内容****/
+.detail-content{
+  width:990px;
+}
+.content-title{
+  height:30px;
+  background-color: #999999;
+}
+.content-title>ul>li{
+  float: left;
+}
+.content-title>ul>li>a{
+  color: #fff;
+  background: #b6ab8f;
+  float: left;
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+/* 商品介绍 */
+.content-introduce{
+  text-align: center;
+  margin:0 auto 25px;
+  background-color: #FFF;
+  padding-top: 20px;
+}
+/* 商品评价 */
+.content-appraise{
+  height:840px;
+  margin:0 auto 25px;
+  background-color: #FFF;
+  padding-top: 20px;
+}
+.appraiseList{
+  width:920px;
+  margin:0 auto;
+}
+/* 没有评论 */
+.appraiseKong{
+  border-bottom: 1px solid #a5a5a5;
+  height: 30px;
+  line-height: 30px;
+  color: #808080;
+  font-size:12px;
+  margin: 20px 0;
+}
+.appraiseKong-left{
+  float:left;
+}
+.appraiseKong-left>a{
+  color: #808080;
+  font-weight: bold;
+  padding-left: 10px;
+  background: url(../img/icons/arrow3.png) no-repeat left center;
+}
+.appraiseKong-right{
+  float:right;
+}
+/* 发表评论 */
+.appraiseXie>h5{
+  border-bottom: 1px solid #A5A5A5;
+  font-size:13px;
+  text-align: left;
+  height: 39px;
+  line-height: 39px;
+  margin-bottom: 10px ;
+}
+.appraiseXie>div{
+  font-size:13px;
+  text-align: left;
+  height: 39px;
+  line-height: 39px;
+}
+.appraiseXie>div>h6{
+  float:left;
+  font-weight: normal;
+  color: #666;
+}
+.appraiseXie>div>span{
+  float:right;
+  font-size: 12px;
+  color: #666;
+}
+.appraiseXie>div>i.icon{
+  position: relative;;
+  display: inline-block;
+  width:25px;
+  height:25px;
+  background: url(../img/icons/stars.jpg)center no-repeat;
+  background-position: -2px -56px;
+}
+.appraiseXie>div>button{
+  background-color: #E4004F;
+  border-color: #E4004F;
+  color: #fff;
+  font-weight: bold;
+  padding:10px 2px;
+}
+.appraiseReturn{
+  border-top: 1px solid #a5a5a5;
+  height: 30px;
+  line-height: 30px;
+  color: #808080;
+  margin: 20px 0;
+  text-align: left;
+}
+.appraiseReturn>a{
+  color: #808080;
+  font-weight: bold;
+  padding-left:10px;
+  background: url(../img/icons/arrow3.png) no-repeat left center;
+}

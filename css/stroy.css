@@ -1,0 +1,110 @@
+/*****顶部位置*****/
+.location{
+  width:1200px;
+  height:45px;
+  line-height:45px;
+  overflow:hidden;
+  margin:0 auto;
+  position:relative;
+}
+/*****中间大图*****/
+.L-img{
+  width:1180px;
+  height:335px;
+  margin:0 auto;
+  position:relative;
+}
+.L-img>img{
+  width:100%;
+  height:100%;
+}
+/*****品牌介绍*****/
+.ppjs{
+  width:1180px;
+  height:350px;
+  margin:0 auto;
+}
+.minlogo{
+  width:225px;
+  height:55px;
+  margin:0 auto;
+  margin-top:50px;
+  background:url(../img/other/story2.gif)0 0 no-repeat;
+}
+.minlogo>h2{
+  color: #fff;
+  font-size:18px;
+  font-weight:normal;
+  margin-left:115px;
+  line-height:45px;
+  text-align:center;
+}
+.ppjs span{
+  display:block;
+  text-align:center;
+  font-weight:bold;
+  margin-top:30px;
+  font-size:24px;
+  line-height:35px;
+}
+.ppjs img{
+  height:20px;
+  width:835px;
+  margin-left:100px;
+  text-align:center;
+}
+.ppjs p{
+  font-size:16px;
+  line-height:35px;
+  color: #6b6b6b;
+}
+/*****品牌定位*****/
+.ppdw{
+  width:910px;
+  height:430px;
+  margin:0 auto;
+  text-align:center;
+}
+.ppdw>.minlogo>img{
+  width:910px;
+  height:300px;
+  margin:60px -340px;
+  text-align: center;
+}
+/*****品牌品质*****/
+.pppz{
+  width:910px;
+  height:610px;
+  margin:30px auto;
+  overflow:hidden;
+}
+.pppz-box1{
+  width:520px;
+  height:252px;
+  float:right;
+}
+.pppz h2{
+  font-size:24px;
+  font-weight:normal;
+  line-height:45px;
+  margin:20px 30px
+}
+.pppz p{
+  font-size:16px;
+  line-height:35px;
+  margin:30px 30px;
+}
+.pppz-box2{
+  width:910px;
+  height:430px;
+}
+/*****品牌发展史*****/
+.ppfz{
+  width:1200px;
+  height:490px;
+  margin:0 auto;
+}
+.ppfz>img{
+  margin:0px auto;
+  width:100%;
+}

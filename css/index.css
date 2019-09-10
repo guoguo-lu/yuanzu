@@ -1,0 +1,315 @@
+/*******一楼*******/
+.floor1{
+  width:1200px;
+  height:435px;
+  /* border:1px solid red; */
+}
+/***轮播图***/
+.banner{
+  float:left;
+  width:1000px;
+  height:435px;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;/*为了子元素的绝对定位*/
+}
+.banner-img li{
+  display:none;
+}
+/*左右按钮*/
+.ck-left,.ck-right{
+  width:30px;
+  height:60px;
+  position:absolute;
+  background:#fff;
+  top:180px;
+}
+.ck-left{
+  left:15px;
+  background:url(../img/icons/ck-left.png) no-repeat center center;
+}
+.ck-right{
+  right:15px;
+  background:url(../img/icons/ck-right.png) no-repeat center center;
+}
+/*透明度和过渡效果*/
+.ck-slide{
+  opacity:0.3;
+  transition:all 0.5s;
+}
+.ck-slide:hover{
+  opacity:0.9;
+}
+/*导航小圆点*/
+.indicators{
+  position:absolute; /*绝对定位*/
+  left:460px;
+  bottom:20px;
+  float:left;
+}
+.indicators>li{
+  width:10px;
+  height:10px;
+  float:left;
+  background:#fff;
+  border-radius:50%;
+  margin-right:15px;
+  cursor:pointer;
+}
+/***右边公告***/
+.notice{
+  width:200px;
+  height:433px;
+  float:right;
+  background-color: #ffffff;
+}
+.news{
+  width:200px;
+  height:225px;
+}
+.news-title{
+  height:40px;
+  line-height:40px;
+  padding:0 10px 0 15px;
+  background-color: #efefef;
+  font-size:15px;
+  font-weight:normal;
+  color: #777777;
+}
+.news-list{
+  font-size:13px;
+  margin:0 10px;
+  padding-top:5px;
+}
+.news-list>li{
+  height:30px;
+  line-height:30px;
+}
+.pic{
+  width:200px;
+  height:210px;
+}
+/*******二楼*******/
+.floor2{
+  width:1200px;
+  height:350px;
+  /* border:1px solid red; */
+}
+/***左边新品***/
+.list{
+  float: left;
+  width: 888px;
+  height: 350px;
+}
+/*上边列表*/
+.list-title{
+  width:100%;
+  height:55px;
+  margin-bottom:10px;
+  border-bottom:3px solid #000;
+}
+.list-title>li{
+  float:left;
+  text-align:center;
+}
+.list-title>li>a{
+  padding:0 75px;
+  height:55px;
+  line-height:55px;
+  font-size:18px;
+  display:block;
+}
+/*下边图片列表*/
+.product{
+  width:888px;
+  height:282px;
+  position:relative;
+  display:none;
+} 
+.product-list>li{
+  float:left;
+  margin-right:10px;
+  padding:10px 15px;
+  background-color:#fff;
+  border:1px solid #eee;
+}
+.product-list>li:hover{
+  border:1px solid #dbdada;
+  /* 边框阴影 */
+  box-shadow: 0 0 15px 5px #ebeaea;
+}
+.product-list a.photo{
+  width:180px;
+  height:180px;
+  display:block;
+}
+.product-list>li>a>img{
+  width:100%;
+  height:100%;
+  display:block;
+  cursor:pointer;
+}
+.product-list>li>strong{
+  height:35px;
+  line-height:35px;
+  text-align:center;
+  overflow:hidden;
+  font-size:14px;
+  font-weight:normal;
+  display:block;
+}
+.product-list>li>em{
+  text-align:center;
+  height:35px;
+  line-height:35px;
+  font-weight:normal;
+  font-style:normal;
+  overflow:hidden;
+  font-size:20px;
+  color: #c70238;
+  display:block;
+}
+/***右边热卖***/
+.hot{
+  background: #F9F9F9;
+  float:right;
+  width:290px;
+  height:300px;
+  margin-top:40px;
+}
+/*******三楼至五楼*******/
+.floor3,.floor4,.floor5{
+  width:1200px;
+  height:425px;
+  background: #fff;
+  /* border:1px solid red; */
+}
+/***上边标题***/
+.img-title{
+  height:40px;
+  line-height:40px;
+  font-size:18px;
+  font-weight:normal;
+  padding-left:50px;
+  background-color: #f9f9f9;
+  border-bottom:2px solid #e4004f;
+  position:relative; 
+}
+.img-title>img{
+  position:absolute;
+  top:7px;
+  left:9px;
+  width:25px;
+  height:25px;
+}
+/***下边图片***/
+.img{
+  width:1200px;
+  height:383px;
+}
+/*左边大图*/
+.L-img{
+  float:left;
+  width:315px;
+  height:370px;
+  position:relative;
+  overflow:hidden;
+  margin-left:20px;
+  margin-top: 5px;
+  background: #333;
+}
+/***右边中图***/
+.M-img{
+  float:right;
+  width:864px;
+  height:370px;
+  margin-top: 5px;
+  background-color: #ffffff;
+}
+.M-img>li{
+  float:left;
+  width:247px;
+  height:350px;
+  text-align:center;
+  padding:20px 20px 0;
+}
+.M-img>li>a{
+  display: block;
+}
+.M-img img{
+  width:180px;
+  height:180px;
+  margin:50px auto 10px auto;
+  display:block;
+}
+.M-img strong{
+  height:28px;
+  line-height:28px;
+  overflow:hidden;
+  font-size:18px;
+  display:block;
+}
+.M-img span{
+  height:19px;
+  line-height:19px;
+  overflow:hidden;
+  display:block;
+}
+.M-img em{
+  height:28px;
+  line-height:28px;
+  overflow:hidden;
+  font-size:18px;
+  font-style:normal;
+  color: #e70050;
+  display:block;
+}
+/* 三楼到五楼鼠标悬停显示的效果 */
+.floor3 li:hover,.floor5 li:hover,.floor4 li:hover{
+  /* 位移 */
+  transform: translateY(-15px);
+  border:1px solid #e5e5e5;
+  /* 边框阴影 */
+  box-shadow: 0 0 15px 5px #efefef;
+  background:#ffffff;
+}
+/*******六楼*******/
+.floor6{
+  width:1200px;
+  height:255px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  background: #fff;
+  /* border:1px solid red; */
+}
+/***上边标题***/
+.floor6>h3{
+  height:40px;
+  line-height:40px;
+  font-size:18px;
+  font-weight:normal;
+  background-color: #f9f9f9;
+  position:relative; 
+  margin-bottom:15px;
+  padding-left:19px;
+  border:none;
+}
+/***下边图片***/
+.floor6>ul{
+  float:left;
+}
+.floor6>ul>li{
+  float:left;
+  width:375px;
+  height:200px;
+  overflow:hidden;
+  margin-left:18px;
+}
+.floor6 a{
+  line-height:70px;
+}
+.floor6 img{
+  width:100%;
+  height:100%;
+  display:block;
+}
